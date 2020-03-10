@@ -15,9 +15,9 @@ alias ApiServer.Accounts.User
 admin = %User{
   name: "admin",
   password_hash: Pbkdf2.hash_pwd_salt("admin123"),
-  real_name: "王磊",
-  mobile: "15156709660",
-  position: "挨踢狗",
+  real_name: "threemonoliths"",
+  mobile: "15555555555",
+  position: "itgo",
   is_admin: true,
   perms_number: 15
 }
